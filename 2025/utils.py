@@ -4,12 +4,12 @@ from functools import wraps
 
 def read_puzzle(day: int) -> str:
     with open(f"puzzles/input{day}.txt", "r") as file:
-        return file.read().split("\n")
+        return file.read().strip()
 
 
 def read_test_puzzle(day: int) -> str:
     with open(f"puzzles/test{day}.txt", "r") as file:
-        return file.read().split("\n")
+        return file.read().strip()
 
 
 def benchmark(func):

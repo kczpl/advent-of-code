@@ -1,8 +1,8 @@
-from days import day1
+from days import day2
 
 
 def main():
-    day1.solve()
+    day2.solve()
 
 
 if __name__ == "__main__":

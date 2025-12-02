@@ -42,7 +42,6 @@ def part2(input: str):
 
 
 def solve():
-    # test_input = read_test_puzzle(1)
-    input = read_puzzle(1)
+    input = read_puzzle(1).split("\n")
     part1(input)
     part2(input)
