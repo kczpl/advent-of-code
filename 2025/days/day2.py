@@ -36,5 +36,6 @@ def part2(input: str):
 
 def solve():
     input = read_puzzle(2)
-    part1(input)
-    part2(input)
+    part1(input) # 41294979841 (211.860 ms)
+    part2(input) # 66500947346 (387.563 ms)
+

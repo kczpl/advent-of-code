@@ -18,7 +18,8 @@ def benchmark(func):
         start = time.perf_counter()
         result = func(*args, **kwargs)
         end = time.perf_counter()
-        print(f"{func.__name__}: {result} ({(end - start) * 1000:.3f} ms)")
+        module = func.__module__
+        print(f"{module} {func.__name__}: {result} ({(end - start) * 1000:.3f} ms)")
         return result
 
     return wrapper
