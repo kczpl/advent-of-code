@@ -1,4 +1,4 @@
-from days import day9
+from days import day10
 
 
 def main():
@@ -10,7 +10,8 @@ def main():
     # day6.solve()
     # day7.solve()
     # day8.solve()
-    day9.solve()
+    # day9.solve()
+    day10.solve()
 
 
 if __name__ == "__main__":
